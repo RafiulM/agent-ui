@@ -17,9 +17,18 @@ import { Skeleton } from '@/components/ui/skeleton'
 
 const ENDPOINT_PLACEHOLDER = 'NO ENDPOINT ADDED'
 const SidebarHeader = () => (
-  <div className="flex items-center gap-2">
-    <Icon type="agno" size="xs" />
-    <span className="text-xs font-medium uppercase text-white">Agent UI</span>
+  <div className="flex items-center justify-between">
+    <div className="flex items-center gap-2">
+      <Icon type="agno" size="xs" />
+      <span className="text-xs font-medium uppercase text-white">Agent UI</span>
+    </div>
+    <a
+      href="/docs"
+      className="text-xs font-medium uppercase text-primary hover:text-primary/80 transition-colors"
+      aria-label="View documentation"
+    >
+      Docs
+    </a>
   </div>
 )
 

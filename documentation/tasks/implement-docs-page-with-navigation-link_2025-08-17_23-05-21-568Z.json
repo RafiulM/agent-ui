@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Add Docs Link to Primary Navigation",
+    "description": "Add a 'Docs' link to the main site navigation in layout.tsx, pointing to the /docs route.",
+    "details": "Edit the global layout component (likely in src/app/layout.tsx) to include a navigation link labeled 'Docs' that routes to /docs. Use Next.js <Link> for client-side navigation. Ensure the link is styled consistently with other navigation items using global CSS. Add ARIA attributes or roles as needed for accessibility. The link should appear on all pages site-wide.",
+    "status": "pending",
+    "test_strategy": "Verify the 'Docs' link appears in the header or primary navigation on all pages. Click the link and confirm it routes to /docs without a full page reload. Use keyboard navigation and screen reader tools to ensure accessibility.",
+    "priority": "high",
+    "ordinal": 1,
+    "task_group_id": "9005033a-6ba5-466d-bbcc-b01ffc0f9d32",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "6da09a02-fe0c-42ea-a167-eeaaaccf7744",
+    "created_at": "2025-08-17T23:05:11.144469Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Ensure Responsiveness and Accessibility of Docs Page",
+    "description": "Review and enhance the Docs page for mobile responsiveness and accessibility compliance.",
+    "details": "Test the Docs page layout on various screen sizes to ensure content adapts gracefully (e.g., headings, lists, code blocks). Add ARIA roles or labels where appropriate (e.g., role='main' for main content). Ensure all interactive elements are keyboard accessible and that color contrast meets WCAG 2.1 AA standards. Adjust global or local styles if needed to fix layout or accessibility issues.",
+    "status": "pending",
+    "test_strategy": "Resize the browser window and use device emulation to check responsiveness. Use keyboard-only navigation and screen readers to verify accessibility. Run automated accessibility checks (e.g., Lighthouse, axe).",
+    "priority": "medium",
+    "ordinal": 2,
+    "task_group_id": "9005033a-6ba5-466d-bbcc-b01ffc0f9d32",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "3b8046dd-9461-42f3-aa5d-def8ebccded0",
+    "created_at": "2025-08-17T23:05:11.144474Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Create Docs Page Structure at /docs",
+    "description": "Implement the Docs page at the /docs route using Next.js and TypeScript, structured into the required documentation sections.",
+    "details": "Create a new file at src/app/docs/page.tsx. Use semantic HTML and React components to structure the page into the following sections, each with an <h2> heading: Introduction & Overview, Installation & Setup, Usage Guide, API Reference, Troubleshooting & FAQs. Use placeholder or real content as appropriate. Ensure the page is wrapped by the existing layout.tsx for consistent site layout. Apply global CSS classes from globals.css for typography and spacing. Ensure all headings and sections use semantic tags for accessibility.",
+    "status": "pending",
+    "test_strategy": "Visit /docs in the browser. Verify all sections render with correct headings and content. Use browser accessibility tools to check semantic structure. Inspect for correct application of global styles. Confirm the layout matches the rest of the site.",
+    "priority": "high",
+    "ordinal": 0,
+    "task_group_id": "9005033a-6ba5-466d-bbcc-b01ffc0f9d32",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "3ad88adb-b29d-403e-9b6f-f1d3b5a2247e",
+    "created_at": "2025-08-17T23:05:11.144436Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
