@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Draft README Guide Content",
+    "description": "Create clear, concise, and comprehensive guide content for the README file, covering setup, usage, and contribution instructions.",
+    "details": "Write a guide section for the README.md that includes:\n- Project overview and purpose\n- Quick start instructions (install, run, build)\n- Explanation of core features (ChatInput, ChatArea, API integration)\n- Usage instructions for end users\n- Contribution guidelines (if applicable)\n- Links to further documentation or resources\nEnsure the guide is beginner-friendly, accurate, and up to date with the current codebase.",
+    "status": "pending",
+    "test_strategy": "Review the drafted guide for completeness, clarity, and accuracy. Ask a peer to read and follow the instructions to ensure they work as described.",
+    "priority": "high",
+    "ordinal": 0,
+    "task_group_id": "010ba4c0-e84c-4a11-8fe6-d0e7e180908b",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "31c10c8c-4c83-44e2-8ea8-73d596481005",
+    "created_at": "2025-08-25T05:52:53.536331Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Integrate Guide into README.md",
+    "description": "Add the drafted guide content into the project's README.md file, ensuring proper formatting and structure.",
+    "details": "Insert the drafted guide into the README.md, using Markdown best practices for headings, lists, and code blocks. Place the guide in a logical location (e.g., after the project title and badges, before advanced sections). Ensure the README remains readable and well-organized.",
+    "status": "pending",
+    "test_strategy": "Preview the README.md in a Markdown viewer to confirm correct formatting and structure. Check for broken links or formatting errors.",
+    "priority": "medium",
+    "ordinal": 1,
+    "task_group_id": "010ba4c0-e84c-4a11-8fe6-d0e7e180908b",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "2f589958-ef6a-4ac7-9e65-1f769a470256",
+    "created_at": "2025-08-25T05:52:53.536341Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Review and Refine README Guide",
+    "description": "Proofread and refine the integrated guide for clarity, accuracy, and consistency with project standards.",
+    "details": "Carefully review the updated README.md for typos, unclear instructions, or outdated information. Ensure terminology matches the codebase and PRD. Make any necessary edits for clarity and professionalism.",
+    "status": "pending",
+    "test_strategy": "Perform a final read-through and optionally request feedback from another team member. Confirm that all instructions are actionable and correct.",
+    "priority": "medium",
+    "ordinal": 2,
+    "task_group_id": "010ba4c0-e84c-4a11-8fe6-d0e7e180908b",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "137c0228-85a4-45eb-9bfe-66ae17d64a5c",
+    "created_at": "2025-08-25T05:52:53.536343Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
