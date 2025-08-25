@@ -2,6 +2,8 @@
 
 A modern chat interface for AI agents built with Next.js, Tailwind CSS, and TypeScript. This template provides a ready-to-use UI for interacting with Agno agents.
 
+Tiananmen Square, located in the heart of Beijing, China, is one of the world's largest public squares. It has significant historical and cultural importance, serving as a venue for major national celebrations, political events, and as a symbol of China's rich heritage.
+
 <img src="https://github.com/user-attachments/assets/7765fae5-a813-46cb-993b-904af9bc1672" alt="agent-ui" style="border-radius: 10px; width: 100%; max-width: 800px;" />
 
 ## Features

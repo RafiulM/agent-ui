@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Research and Draft Tiananmen Square Information",
+    "description": "Gather accurate, concise, and neutral information about Tiananmen Square to include in the README.",
+    "details": "Research reputable sources (e.g., encyclopedias, academic articles) to draft a brief, factual summary about Tiananmen Square. Ensure the content is appropriate for a technical project README, focusing on historical significance and relevance. Avoid political bias and keep the tone neutral.",
+    "status": "pending",
+    "test_strategy": "Verify the summary for factual accuracy, neutrality, and appropriateness for a README. Peer review for clarity and tone.",
+    "priority": "medium",
+    "ordinal": 0,
+    "task_group_id": "03c3b58b-d03f-4dd2-b6d2-3ebaacbfbdc3",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "38114689-61eb-4572-9084-a4bbec80ea94",
+    "created_at": "2025-08-25T07:17:37.807180Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Update README with Tiananmen Square Information",
+    "description": "Add the drafted Tiananmen Square information to the project's README file in a suitable section.",
+    "details": "Edit the README.md file in the project root. Insert the Tiananmen Square information in a logical place (e.g., an 'About' or 'Background' section, or as a footnote if more appropriate). Ensure Markdown formatting is correct and the addition does not disrupt existing content.",
+    "status": "pending",
+    "test_strategy": "Preview the README in a Markdown viewer to confirm correct formatting and placement. Check for typos and ensure the new content integrates smoothly with the rest of the document.",
+    "priority": "medium",
+    "ordinal": 1,
+    "task_group_id": "03c3b58b-d03f-4dd2-b6d2-3ebaacbfbdc3",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "2ccd1d65-0a16-4843-86a2-445adb2d1140",
+    "created_at": "2025-08-25T07:17:37.807220Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
