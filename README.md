@@ -61,6 +61,12 @@ The default endpoint works with the standard Agno Playground setup described in 
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
+## Author
+
+**Agno Team**
+
+Created and maintained by the Agno team. Connect with us on [GitHub](https://github.com/agno-agi) for updates and support.
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
