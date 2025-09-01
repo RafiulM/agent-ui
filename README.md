@@ -57,6 +57,12 @@ By default Agent UI connects to `http://localhost:7777`. You can easily change t
 
 The default endpoint works with the standard Agno Playground setup described in the [official documentation](https://agno.link/agent-ui#connect-to-local-agents).
 
+## Author
+
+**Anurag** - *Original Creator*
+- Email: anuragsharma011011@gmail.com
+- GitHub: [agno-agi](https://github.com/agno-agi)
+
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
