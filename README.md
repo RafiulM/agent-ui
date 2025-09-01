@@ -64,3 +64,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for c
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
+
+## Author
+
+- Rafiul Islam – https://github.com/RafiulM
