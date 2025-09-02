@@ -61,6 +61,12 @@ The default endpoint works with the standard Agno Playground setup described in 
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
+## Author
+
+- Name: Ahmad Rafiul Mahdi
+- Website: https://rafiulm.com
+- GitHub: https://github.com/RafiulM
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
