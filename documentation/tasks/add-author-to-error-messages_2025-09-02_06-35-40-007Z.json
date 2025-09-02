@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Update Error Message Data Structure to Include Author",
+    "description": "Modify the error message structure in the chat system to include an 'author' field, indicating the source of the error (e.g., 'system' or 'agent').",
+    "details": "Identify where error messages are constructed and displayed in the chat flow (likely in the ChatArea or related message handling logic). Update the TypeScript interfaces/types for messages to include an 'author' property. Ensure that when an error occurs (such as an API failure), the generated error message object includes 'author: \"system\"' or another appropriate value. Update any mock/error message creation utilities as needed.",
+    "status": "pending",
+    "test_strategy": "Write unit tests for the message creation logic to verify that error messages now include the correct 'author' property. Manually trigger an error in the UI and inspect the rendered message to confirm the author is present in the data.",
+    "priority": "high",
+    "ordinal": 0,
+    "task_group_id": "5e469a4d-0c10-478c-8a1a-f1cbffe3af85",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "21a677ee-50ec-4fe3-88cd-4c07c99e9f7d",
+    "created_at": "2025-09-02T06:35:25.143889Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Display Error Author in ChatArea Component",
+    "description": "Ensure that the ChatArea component correctly renders the 'author' for error messages, visually distinguishing them from user or agent messages.",
+    "details": "Update the ChatArea (or message rendering subcomponent) to check for and display the 'author' field on error messages. Apply distinct styling or labeling (e.g., prefix with 'System:' or use a different color) to make the error's source clear to the user. Ensure accessibility is maintained (e.g., ARIA labels).",
+    "status": "pending",
+    "test_strategy": "Manually test by causing an API error and verifying the error message appears with the correct author label and styling. Add a component test to check rendering of error messages with the 'author' field.",
+    "priority": "medium",
+    "ordinal": 1,
+    "task_group_id": "5e469a4d-0c10-478c-8a1a-f1cbffe3af85",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "e3b6a836-2482-478e-8c1f-028929110f75",
+    "created_at": "2025-09-02T06:35:25.143941Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
