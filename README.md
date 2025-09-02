@@ -63,7 +63,8 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for c
 
 ## Author
 
-- [RafiulM](https://github.com/RafiulM)
+- Name: RafiulM
+- GitHub: https://github.com/RafiulM
 
 ## License
 
