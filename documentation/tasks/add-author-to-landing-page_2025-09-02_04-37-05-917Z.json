@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Determine Placement for Author Information",
+    "description": "Identify the appropriate location on the landing page to display the author information, ensuring it aligns with the existing layout and design guidelines.",
+    "details": "Review the current layout of the landing page (likely in the main page component or within the global layout). Decide whether the author should be shown in the header, footer, or a dedicated section. Ensure the placement does not interfere with the chat interface and maintains accessibility and responsiveness.",
+    "status": "pending",
+    "test_strategy": "Visually inspect the landing page in desktop and mobile views to confirm the author information is clearly visible and does not disrupt the chat interface. Check for accessibility (screen reader, keyboard navigation).",
+    "priority": "medium",
+    "ordinal": 0,
+    "task_group_id": "4d249779-daa2-47d2-90b0-fb8ee9308f76",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "8783e958-8763-4d8c-9bb2-5ad44fe18490",
+    "created_at": "2025-09-02T04:36:48.319173Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Implement Author Display Component or Section",
+    "description": "Add the author information to the landing page at the chosen location, using semantic HTML and following styling conventions.",
+    "details": "If a new component is needed (e.g., <AuthorInfo />), create it in the appropriate directory. Otherwise, add a section or element (e.g., <footer> or <div>) to the landing page or layout file. Use semantic tags, include the author's name (and optionally a link or short bio), and apply existing CSS classes for consistency. Ensure ARIA labels if necessary for accessibility.",
+    "status": "pending",
+    "test_strategy": "Check that the author information renders correctly in the UI, matches the design, and is accessible via screen readers. Validate that the styling is consistent with the rest of the application.",
+    "priority": "high",
+    "ordinal": 1,
+    "task_group_id": "4d249779-daa2-47d2-90b0-fb8ee9308f76",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "55ba5f66-c84e-410e-b6eb-51c7d86cd689",
+    "created_at": "2025-09-02T04:36:48.319186Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Test Responsiveness and Accessibility of Author Section",
+    "description": "Ensure the author information section is responsive and accessible across devices and assistive technologies.",
+    "details": "Test the landing page with the author information on various screen sizes (desktop, tablet, mobile). Use browser accessibility tools to verify ARIA labels, keyboard navigation, and screen reader compatibility. Adjust CSS or markup as needed to fix any issues found.",
+    "status": "pending",
+    "test_strategy": "Use browser dev tools for responsive testing. Use accessibility audit tools (e.g., Lighthouse, axe) to check for accessibility violations. Manually test keyboard navigation and screen reader output.",
+    "priority": "medium",
+    "ordinal": 2,
+    "task_group_id": "4d249779-daa2-47d2-90b0-fb8ee9308f76",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "34ded34c-0dab-4d29-9b62-4c6eac096f99",
+    "created_at": "2025-09-02T04:36:48.319189Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
