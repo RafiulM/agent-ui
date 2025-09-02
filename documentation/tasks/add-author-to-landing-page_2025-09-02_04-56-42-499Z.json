@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Determine Author Display Location",
+    "description": "Decide where and how the author information should be presented on the landing page according to UI/UX best practices and project conventions.",
+    "details": "Review the current layout of the landing page (likely the main page at `/` wrapped by `layout.tsx`). Choose an appropriate location for the author attribution, such as the footer, header, or a dedicated section. Ensure the placement does not interfere with the chat playground's usability or aesthetics. Consider accessibility and responsiveness.",
+    "status": "pending",
+    "test_strategy": "Verify the chosen location is visible on both desktop and mobile. Confirm it does not overlap or interfere with chat UI elements. Solicit feedback from a peer or designer if available.",
+    "priority": "high",
+    "ordinal": 0,
+    "task_group_id": "95c462f6-9853-4b6c-a388-ec8e23552c59",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "bf0da6b1-93fb-4647-86de-a0e536ea7ca4",
+    "created_at": "2025-09-02T04:56:26.059567Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Implement Author Information in Layout",
+    "description": "Add the author’s name (and optionally, a link or brief bio) to the landing page in the chosen location, using semantic HTML and accessible markup.",
+    "details": "Edit the relevant component (likely `layout.tsx` or the main landing page component) to include the author’s name. Use semantic tags (e.g., `<footer>`, `<address>`, or `<div>`) and ensure proper ARIA labeling if needed. Style minimally to match the existing design, using `globals.css` if necessary. If including a link (e.g., to a portfolio or GitHub), ensure it opens in a new tab and is accessible.",
+    "status": "pending",
+    "test_strategy": "Check that the author information renders correctly, is accessible via screen reader, and is keyboard-navigable. Validate that links (if present) work as intended and meet accessibility standards.",
+    "priority": "high",
+    "ordinal": 1,
+    "task_group_id": "95c462f6-9853-4b6c-a388-ec8e23552c59",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "ddaccc77-4a09-42dc-9b24-7904aaf4619c",
+    "created_at": "2025-09-02T04:56:26.059583Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Test Responsiveness and Accessibility",
+    "description": "Ensure the author information displays correctly across devices and meets accessibility requirements.",
+    "details": "Manually test the landing page on various screen sizes (desktop, tablet, mobile) to confirm the author info remains visible and well-positioned. Use browser accessibility tools (e.g., Lighthouse, axe) to check for ARIA compliance and keyboard navigation. Adjust styling or markup as needed to fix any issues.",
+    "status": "pending",
+    "test_strategy": "Run manual and automated accessibility tests. Resize the browser window and use device emulation to check layout. Address any issues found.",
+    "priority": "medium",
+    "ordinal": 2,
+    "task_group_id": "95c462f6-9853-4b6c-a388-ec8e23552c59",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "a5d10717-dd33-44bc-8fd4-a3c4459be248",
+    "created_at": "2025-09-02T04:56:26.059587Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
