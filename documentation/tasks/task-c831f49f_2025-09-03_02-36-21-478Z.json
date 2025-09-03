@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Add Author Section to README",
+    "description": "Include an 'Author' section in the project's README file to provide attribution and contact information as appropriate.",
+    "details": "Open the README.md file at the root of the project. Add a clearly labeled 'Author' section near the end (or in a logical place if a convention exists). Include the author's name and, if relevant, contact information or links (such as GitHub profile or email). Ensure formatting matches the rest of the README and adheres to Markdown best practices.",
+    "status": "pending",
+    "test_strategy": "Review the updated README.md file to confirm the 'Author' section is present, correctly formatted, and displays the intended information. Optionally, preview the file in a Markdown viewer to verify appearance.",
+    "priority": "medium",
+    "ordinal": 0,
+    "task_group_id": "9434dec8-4c0e-4ffe-b86d-644294a08b39",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "278326fb-bc9b-4b11-9925-0efd7e6938ad",
+    "created_at": "2025-09-03T02:36:00.067560Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
