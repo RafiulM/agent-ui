@@ -29,7 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${dmMono.variable} antialiased`}>
-        <NuqsAdapter>{children}</NuqsAdapter>
+        <div className="flex min-h-screen flex-col">
+          <NuqsAdapter>{children}</NuqsAdapter>
+          <footer className="mt-auto border-t border-primary/15 bg-background px-4 py-3 text-center">
+            <p className="text-xs text-muted">
+              Created by <span className="font-medium text-foreground">Anurag Sharma</span>
+            </p>
+          </footer>
+        </div>
         <Toaster />
       </body>
     </html>

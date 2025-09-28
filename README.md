@@ -61,6 +61,10 @@ The default endpoint works with the standard Agno Playground setup described in 
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
+## Author
+
+**Anurag Sharma** - [GitHub](https://github.com/anuragsharma011011)
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).

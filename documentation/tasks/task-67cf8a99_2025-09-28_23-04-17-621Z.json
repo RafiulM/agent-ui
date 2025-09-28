@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Add Author Section to README.md",
+    "description": "Include the author's name and relevant details in the project's README.md file.",
+    "details": "Edit the README.md file at the project root. Add a clearly labeled 'Author' section near the end or after the project description. Include the author's full name and, if appropriate, contact information or a link to a profile (e.g., GitHub, LinkedIn). Ensure formatting matches the rest of the README and adheres to Markdown best practices.",
+    "status": "pending",
+    "test_strategy": "Review the updated README.md in a Markdown viewer to ensure the author section is present, correctly formatted, and free of typos. Confirm that any links are functional.",
+    "priority": "medium",
+    "ordinal": 0,
+    "task_group_id": "b3d7f7c7-5e32-49bf-a17d-16d834a60aee",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "6a6a4784-4f1d-4448-9cb3-6ce072fdf82c",
+    "created_at": "2025-09-28T23:04:06.241728Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  },
+  {
+    "title": "Add Author Attribution to Landing Page Footer",
+    "description": "Display the author's name in the footer of the landing page at the '/' route.",
+    "details": "Edit the global layout component (likely layout.tsx or a Footer component). Add a footer section if not already present, and include a line such as 'Created by [Author Name]'. Ensure the footer is styled consistently with the application's design and is accessible (e.g., proper HTML semantics, ARIA labels if needed).",
+    "status": "pending",
+    "test_strategy": "Run the application locally, navigate to the landing page, and verify that the footer displays the author's name as intended. Check responsiveness and accessibility of the footer.",
+    "priority": "medium",
+    "ordinal": 1,
+    "task_group_id": "b3d7f7c7-5e32-49bf-a17d-16d834a60aee",
+    "parent_task_id": null,
+    "ai_result": null,
+    "id": "4358fdcf-ef71-4241-ab72-8ca5e08dceba",
+    "created_at": "2025-09-28T23:04:06.241732Z",
+    "user_id": "user_2yhesfpa5IDelC7UxShblIKQJIb",
+    "subtasks": []
+  }
+]
