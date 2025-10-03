@@ -1,15 +1,17 @@
 'use client'
-import Sidebar from '@/components/playground/Sidebar/Sidebar'
-import { ChatArea } from '@/components/playground/ChatArea'
-import { Suspense } from 'react'
+import { HeroSection } from '@/components/landing/HeroSection'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter()
+
+  const handleCTAClick = () => {
+    router.push('/playground')
+  }
+
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <div className="flex h-screen bg-background/80">
-        <Sidebar />
-        <ChatArea />
-      </div>
-    </Suspense>
+    <main>
+      <HeroSection onCTAClick={handleCTAClick} />
+    </main>
   )
 }

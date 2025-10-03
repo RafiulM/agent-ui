@@ -1,0 +1,117 @@
+.heroSection {
+  @apply min-h-screen flex items-center justify-center bg-background/80 px-4 py-12;
+  background: linear-gradient(135deg, #111113 0%, #18181b 100%);
+}
+
+.container {
+  @apply max-w-4xl mx-auto text-center;
+}
+
+.content {
+  @apply space-y-8;
+}
+
+.headline {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6;
+  font-family: var(--font-geist-sans, system-ui, sans-serif);
+  background: linear-gradient(135deg, #FAFAFA 0%, #A1A1AA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 1.1;
+}
+
+.description {
+  @apply text-lg md:text-xl text-secondary/80 mb-8 max-w-2xl mx-auto leading-relaxed;
+  font-family: var(--font-geist-sans, system-ui, sans-serif);
+}
+
+.ctaButton {
+  @apply transform transition-all duration-200 hover:scale-105 focus:scale-105;
+  @apply bg-brand hover:bg-brand/90 text-white font-semibold;
+  @apply shadow-lg hover:shadow-xl focus:shadow-xl;
+  @apply ring-offset-2 ring-offset-background;
+  min-width: 160px;
+}
+
+.ctaButton:hover {
+  box-shadow: 0 10px 25px rgba(255, 64, 23, 0.3);
+}
+
+.ctaButton:focus-visible {
+  @apply ring-2 ring-brand;
+  box-shadow: 0 10px 25px rgba(255, 64, 23, 0.3);
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  .heroSection {
+    @apply min-h-[80vh] px-6 py-8;
+  }
+  
+  .headline {
+    @apply text-3xl;
+  }
+  
+  .description {
+    @apply text-base px-4;
+  }
+  
+  .ctaButton {
+    @apply w-full max-w-xs;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .heroSection {
+    @apply min-h-[85vh] px-8;
+  }
+  
+  .headline {
+    @apply text-4xl;
+  }
+  
+  .description {
+    @apply text-lg;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .heroSection {
+    @apply min-h-screen px-12;
+  }
+  
+  .content {
+    @apply space-y-10;
+  }
+}
+
+/* Animation for entrance */
+.heroSection {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .headline {
+    background: none;
+    color: #FAFAFA;
+  }
+  
+  .description {
+    @apply text-secondary;
+  }
+}
